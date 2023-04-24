@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.body {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -10,16 +10,17 @@ body {
     display: block;
     text-align: right;
 }
-.header img {
+.header__image {
     width: 100%;
 }
-.header .more-info {
+.header__more-info-link {
     font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
 
-    .header { text-align: center;
+    .header { 
+        text-align: center;
     }
 
 }
